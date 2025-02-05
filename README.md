@@ -14,6 +14,8 @@ This repository is for storing code of interest to the forensic genetics communi
 
 All the tools used were tested on Ubuntu 22.04.
 
+## Basecalling
+
 ## Variant calling
 
 ### Clair3 pipeline
