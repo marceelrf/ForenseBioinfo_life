@@ -9,3 +9,7 @@
 ## About
 
 This repository is for storing code of interest to the forensic genetics community. Most of the code here has been used for analysis of Oxford Nanopore sequencing data. However, the vast majority can be adapted for PacBio and even Illumina.
+
+## System requirements
+
+All the tools used were tested on Ubuntu 22.04.
