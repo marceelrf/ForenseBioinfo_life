@@ -7,7 +7,7 @@ OUTPUT_DIR = "/path/to/output/directory"
 THREADS = "20"
 MODEL_PATH = "/path/to/model/directory"
 MODEL_NAME = "model_name"
-DOCKER_IMAGE = "docker_image_name"
+DOCKER_IMAGE = "hkubal/clair3:v1.0.10"
 GENOME_PATH = "/path/to/genomes/directory"
 
 # Garantir que o diretório de saída exista
