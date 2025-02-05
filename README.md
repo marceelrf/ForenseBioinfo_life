@@ -1,3 +1,3 @@
 # ForenseBioinfo_life
 
-![Forensic Guy](WhatsApp Image 2025-02-05 at 09.36.37.jpeg)
+![Forensic Guy](https://github.com/marceelrf/ForenseBioinfo_life/blob/main/WhatsApp%20Image%202025-02-05%20at%2009.36.37.jpeg)
