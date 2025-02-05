@@ -2,14 +2,15 @@ import os
 import subprocess
 
 # Diretórios de entrada e saída
-INPUT_DIR = "/media/lab/Data1/longReads/R10_1KG/skin"
-OUTPUT_DIR = "/media/lab/Data1/longReads/R10_1KG/skin/clair3_step2"
+# Diretórios de entrada e saída
+INPUT_DIR = "/path/to/input/directory"
+OUTPUT_DIR = "/path/to/output/directory"
 THREADS = "20"
-MODEL_PATH = "/home/lab/Downloads/"
-MODEL_NAME = "r1041_e82_400bps_sup_v420"
+MODEL_PATH = "/path/to/model/directory"
+MODEL_NAME = "model_name"
 DOCKER_IMAGE = "hkubal/clair3:v1.0.10"
-GENOME_PATH = "/media/lab/Data1/genomes/"
-VCF_CANDIDATE_PATH = "/media/lab/Data1/longReads/R10_1KG/skin/clair3/gVCF/all_samples.vcf"
+GENOME_PATH = "/path/to/genomes/directory"
+VCF_CANDIDATE_PATH = "/path/to/vcf/directory"
 
 # Garantir que o diretório de saída exista
 os.makedirs(OUTPUT_DIR, exist_ok=True)
