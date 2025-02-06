@@ -1,0 +1,26 @@
+graph LR;
+    A[".BAM"] --> B(("clair3"));
+    
+    D --> E["VCF candidates"];
+    E -.-> B;
+    D1 --> F["Final VCF"];
+
+    B --> C;
+    B --> C1;
+
+    subgraph "Step 1";
+
+    C[".gVCF"] --> D(GLnexus);
+    end
+
+    subgraph "Step 2";
+    C1[".gVCF"] --> D1(GLnexus);
+    end
+
+    f1>"run_mult_clair3.py"];
+    f2>"run_mult_clair3_step2.py"];
+
+style f1 fill:#58FFFF,stroke:#333,stroke-width:3px;
+style f2 fill:#58FFFF,stroke:#333,stroke-width:3px;
+style B fill:#FF5858,stroke:#333,stroke-width:3px;
+style F fill:#9921DE,stroke:#333,stroke-width:3px;
