@@ -26,6 +26,7 @@ All the tools used were tested on Ubuntu 22.04.
 - clair3 v1.0.10 [[link](https://github.com/HKU-BAL/Clair3)]
 - dorado 0.8.3 [[link](https://github.com/nanoporetech/dorado)]
 - modkit v0.4.2 [[link](https://github.com/nanoporetech/modkit)]
+- PECAT v0.0.3 [[link](https://github.com/lemene/PECAT)]
 
 ## Basecalling
 
