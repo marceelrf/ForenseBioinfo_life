@@ -30,8 +30,14 @@ All the tools used were tested on Ubuntu 22.04.
 - dorado 0.8.3 [[link](https://github.com/nanoporetech/dorado)]
 - modkit v0.4.2 [[link](https://github.com/nanoporetech/modkit)]
 - PECAT v0.0.3 [[link](https://github.com/lemene/PECAT)]
+- chopper v0.6.0 [[link](https://github.com/wdecoster/chopper)]
+- NanoPlot v1.42.0 [[link](https://github.com/wdecoster/NanoPlot)] 
 
 ## Basecalling
+
+## Sequencing QC
+
+### NanoPlot + Chopper (Nanopack)
 
 ## Genome Mapping
 
