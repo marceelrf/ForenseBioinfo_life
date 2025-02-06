@@ -1,0 +1,51 @@
+graph LR;
+
+    f0[("Reference Genome.fasta")]
+    f0_ind@{label: "fasta index", shape: stadium}
+    subgraph IPE["Illumina - PE"];
+    f1[R1.fastq]
+    f2[R2.fastq]
+    end
+    subgraph "Nanopore";
+    f3[.fastq]
+    end
+    subgraph "BWA";
+    p1(("bwa index"))
+    p2(("bwa mem"))
+    f0_ind --> p2
+    end
+    subgraph "minimap2";
+    f3 ---->p3(("minimap2 map-ont"))
+    f0_ind --> p2
+    end
+    subgraph "samtools";
+    f4 --> p4(("samtools sort"))
+    f5 --> p4
+    p4 --> f6("sample-srs.bam")
+    p4 --> f7("sample-lrs.bam")
+    f6 --> p5(("samtools index"))
+    f7 --> p5
+    end
+
+
+
+    p2 --> f4["sample-srs.sam"]
+    p3 --> f5["sample-lrs.sam"]
+
+
+    f0 -.-> p1
+    p1 --> f0_ind
+    f1 ----> p2
+    f2 ----> p2
+    f0_ind -.-> p3
+    p5 --> f8["sample-srs.bam.bai"] & f9["sample-lrs.bam.bai"]
+
+
+style Nanopore fill:#58FFFF,stroke:#333,stroke-width:3px;
+style IPE fill:#58FFFF,stroke:#333,stroke-width:3px;
+
+style p1 fill:#FF5858,stroke:#333,stroke-width:3px;
+style p2 fill:#FF5858,stroke:#333,stroke-width:3px;
+style p3 fill:#FF5858,stroke:#333,stroke-width:3px;
+style p4 fill:#FF5858,stroke:#333,stroke-width:3px;
+style p5 fill:#FF5858,stroke:#333,stroke-width:3px;
