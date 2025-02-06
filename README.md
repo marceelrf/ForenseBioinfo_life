@@ -16,10 +16,15 @@ All the tools used were tested on Ubuntu 22.04.
 
 ### Softwares
 
+- R 4.4.0
+- python v3.10.12
 - samtools v1.19.2 [[link](https://www.htslib.org/)]
 - bcftools v1.19 [[link](https://www.htslib.org/)]
 - tabix v13+ds [[link](https://www.htslib.org/)]
+- freebayes v1.3.6 [[link](https://github.com/freebayes/freebayes)]
 - clair3 v1.0.10 [[link](https://github.com/HKU-BAL/Clair3)]
+- dorado 0.8.3 [[link](https://github.com/nanoporetech/dorado)]
+- modkit v0.4.2 [[link](https://github.com/nanoporetech/modkit)]
 
 ## Basecalling
 
