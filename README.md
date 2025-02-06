@@ -14,6 +14,13 @@ This repository is for storing code of interest to the forensic genetics communi
 
 All the tools used were tested on Ubuntu 22.04.
 
+### Softwares
+
+- samtools v1.19.2 [[link](https://www.htslib.org/)]
+- bcftools v1.19 [[link](https://www.htslib.org/)]
+- tabix v13+ds [[link](https://www.htslib.org/)]
+- clair3 v1.0.10 [[link](https://github.com/HKU-BAL/Clair3)]
+
 ## Basecalling
 
 ## Variant calling
