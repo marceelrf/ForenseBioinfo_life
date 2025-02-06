@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Caminho para a pasta gVCF
-gvcf_dir="/media/lab/Data1/longReads/R10_1KG/skin/clair3/gVCF"
+gvcf_dir="path/to/clair3/gVCF"
 
 # Percorrer todos os arquivos .gvcf.gz na pasta gVCF
 for gvcf_file in "$gvcf_dir"/*.gvcf.gz; do
