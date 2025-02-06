@@ -19,6 +19,8 @@ All the tools used were tested on Ubuntu 22.04.
 - R 4.4.0
 - python v3.10.12
 - conda 23.7.2
+- minimap2 v2.24-r1122 [[link](https://github.com/lh3/minimap2)]
+- bwa v0.7.17-r1188 [[link](https://github.com/lh3/bwa)]
 - samtools v1.19.2 [[link](https://www.htslib.org/)]
 - bcftools v1.19 [[link](https://www.htslib.org/)]
 - tabix v1.13+ds [[link](https://www.htslib.org/)]
@@ -30,6 +32,12 @@ All the tools used were tested on Ubuntu 22.04.
 - PECAT v0.0.3 [[link](https://github.com/lemene/PECAT)]
 
 ## Basecalling
+
+## Genome Mapping
+
+### BWA - Short reads
+
+### Minimap2 - ONT long reads
 
 ## Variant calling
 
