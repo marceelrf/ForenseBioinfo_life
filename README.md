@@ -42,6 +42,7 @@ All the tools used were tested on Ubuntu 22.04.
 ### NanoPlot + Chopper (Nanopack)
 
 ## Genome Mapping
+[Mapping](https://github.com/marceelrf/ForenseBioinfo_life/tree/main/mapping)
 
 ### BWA - Short reads
 
