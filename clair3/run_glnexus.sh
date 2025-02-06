@@ -1,0 +1,1 @@
+/home/lab/GLnexus/glnexus_cli --config /home/lab/Downloads/clair3.yml --threads 12 *_renomeado.gvcf.gz  > all_samples.bcf
