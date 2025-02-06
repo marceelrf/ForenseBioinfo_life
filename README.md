@@ -47,6 +47,8 @@ All the tools used were tested on Ubuntu 22.04.
 
 ## Variant calling
 
+### Freebayes pipeline
+
 ### Clair3 pipeline
 [Clair3](https://github.com/marceelrf/ForenseBioinfo_life/tree/main/clair3)
 
