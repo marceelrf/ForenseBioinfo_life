@@ -62,3 +62,4 @@ All the tools used were tested on Ubuntu 22.04.
 ## Long haplotype resolution
 
 ### PECAT pipeline
+[PECAT](https://github.com/marceelrf/ForenseBioinfo_life/tree/main/PECAT)
