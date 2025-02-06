@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Path to the parent folder containing subfolders
-parent_folder="/media/lab/Data1/longReads/R10_1KG/skin/PECAT/"
+parent_folder="path/to/fastq/"
 
 # Path to the file you want to copy
-file_to_copy="/media/lab/Data1/longReads/R10_1KG/skin/PECAT/run_PECAT.R"
+file_to_copy="/path/to/run_PECAT.R"
 
 # The command you want to run inside each subfolder
 command_to_run="Rscript run_PECAT.R"
