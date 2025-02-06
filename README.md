@@ -37,6 +37,8 @@ All the tools used were tested on Ubuntu 22.04.
 
 ## Sequencing QC
 
+### Fastqc + trimmomatic
+
 ### NanoPlot + Chopper (Nanopack)
 
 ## Genome Mapping
@@ -55,3 +57,7 @@ All the tools used were tested on Ubuntu 22.04.
 ## Base modification analysis
 
 ### Modkit
+
+## Long haplotype resolution
+
+### PECAT pipeline
