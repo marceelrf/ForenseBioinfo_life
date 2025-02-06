@@ -18,6 +18,7 @@ All the tools used were tested on Ubuntu 22.04.
 
 - R 4.4.0
 - python v3.10.12
+- conda 23.7.2
 - samtools v1.19.2 [[link](https://www.htslib.org/)]
 - bcftools v1.19 [[link](https://www.htslib.org/)]
 - tabix v1.13+ds [[link](https://www.htslib.org/)]
