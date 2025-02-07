@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Diretório onde os arquivos SAM estão localizados
-SAM_DIR="/media/lab/Data1/longReads/R10_1KG/skin/assembly/retro_BAMs/"  # Altere para o diretório correto onde os arquivos SAM estão
+SAM_DIR="/caminho/para/a/pasta/com/sam"  # Altere para o diretório correto onde os arquivos SAM estão
 
 # Diretório onde os arquivos BAM serão salvos
-OUTPUT_DIR="/media/lab/Data1/longReads/R10_1KG/skin/assembly/retro_BAMs/"  # Altere para o diretório onde você quer salvar os arquivos BAM
+OUTPUT_DIR="/caminho/para/a/pasta/de/bam"  # Altere para o diretório onde você quer salvar os arquivos BAM
 
 # Verifica se o diretório de saída existe, caso contrário, cria
 mkdir -p "$OUTPUT_DIR"
