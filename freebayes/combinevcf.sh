@@ -1,4 +1,4 @@
-for file in /media/lab/Data1/longReads/R10_1KG/skin/Freebayes_genes/combined/Freebayes_genes/*.vcf; do
+for file in path/to/data/*.vcf; do
     bgzip -c "$file" > "$file.gz"
     tabix -p vcf "$file.gz"
 done
