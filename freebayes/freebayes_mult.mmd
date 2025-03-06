@@ -1,0 +1,41 @@
+graph LR;
+
+    bams@{shape: docs, label: "Multiple BAMs"}
+    bed@{ shape: paper-tape, label: "BED"}
+    vcf@{shape: docs, label: "Multiple VCFs"}
+
+    
+
+    f0[("Reference Genome.fasta")]
+    f0 & bed & bams --> f1
+
+    subgraph "freebayes-parallel";
+    f1>create_fb_commands.R]
+    f1 --> f2
+    
+        subgraph "parallel -j n_threads"
+        f2>run_fb_commands.sh]
+        end
+    
+
+    end
+    f2 --> vcf --> cmd1
+    
+    cmd1{"bgzip
+    tabix -p vcf
+    bcftools concat"}
+
+    cmd1 --> f3["Final VCF.gz"]
+
+
+
+
+
+style f1 fill:#58FFFF,stroke:#333,stroke-width:3px;
+style f2 fill:#58FFFF,stroke:#333,stroke-width:3px;
+style vcf fill:#FF8C89,stroke:#333,stroke-width:3px;
+style cmd1 fill:#c6ffee,stroke:#333,stroke-width:3px;
+style f2 fill:#58FFFF,stroke:#333,stroke-width:3px;
+style f3 fill:#FF5858,stroke:#333,stroke-width:3px;
+style bed fill:#ffc200,stroke:#333,stroke-width:3px;
+style bams fill:#0888f7,stroke:#333,stroke-width:3px;
