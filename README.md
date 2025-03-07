@@ -60,7 +60,7 @@ All the tools used were tested on Ubuntu 22.04.
 
 ### Modkit
 
-Modkit
+[Modkit](https://github.com/marceelrf/ForenseBioinfo_life/tree/main/modkit)
 
 ## Long haplotype resolution
 
