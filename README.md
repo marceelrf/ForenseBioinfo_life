@@ -60,6 +60,8 @@ All the tools used were tested on Ubuntu 22.04.
 
 ### Modkit
 
+Modkit
+
 ## Long haplotype resolution
 
 ### PECAT pipeline
